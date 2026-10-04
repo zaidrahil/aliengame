@@ -33,6 +33,7 @@ def run_game():
       pygame.display.flip()
       screen.fill(ai_settings.bg_color)
       gf.check_events(ai_settings,ship,screen)
+      
       ship.update()
       gf.update_screen(ai_settings, screen, ship)
       
