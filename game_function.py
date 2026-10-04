@@ -28,4 +28,4 @@ def update_screen(ai_settings,screen,ship):
         ship.blitme()
         
         pygame.display.flip()
-        
+        #it is for screen updating 
