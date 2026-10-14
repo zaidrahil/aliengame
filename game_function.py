@@ -1,6 +1,5 @@
 import sys
 
-import pygame
 
 def check_events(ship):
     for event in pygame.event.get():
@@ -29,3 +28,5 @@ def update_screen(ai_settings,screen,ship):
         
         pygame.display.flip()
         #it is for screen updating 
+        print("the kill the space crafte ")
+        print("alien is ahead")
